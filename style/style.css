@@ -1,4 +1,4 @@
-/* Global Styles */
+
 :root {
     --primary-color: #ff0000;
     --secondary-color: #3b4cca;
@@ -116,13 +116,13 @@ nav a:hover, nav a.active {
     background-color: var(--secondary-color);
 }
 
-/* Main Content Styles */
+
 main {
     padding: 2rem;
     min-height: calc(100vh - 150px);
 }
 
-/* Home Page Styles */
+
 .home-main .hero {
     display: flex;
     align-items: center;
@@ -180,7 +180,7 @@ main {
     font-size: 1.2rem;
 }
 
-/* Pokédex Page Styles */
+
 .pokedex-main h2 {
     color: var(--secondary-color);
     text-align: center;
@@ -283,30 +283,12 @@ main {
     font-weight: bold;
 }
 
-/* Type colors */
-.type.planta { background-color: var(--planta); }
-.type.fuego { background-color: var(--fuego); }
-.type.agua { background-color: var(--agua); }
-.type.eléctrico { background-color: var(--eléctrico); color: var(--dark-color); }
-.type.normal { background-color: var(--normal); }
-.type.volador { background-color: var(--volador); }
-.type.veneno { background-color: var(--veneno); }
-.type.tierra { background-color: var(--tierra); color: var(--dark-color); }
-.type.roca { background-color: var(--roca); color: var(--dark-color); }
-.type.bicho { background-color: var(--bicho); color: var(--dark-color); }
-.type.psíquico { background-color: var(--psíquico); }
-.type.lucha { background-color: var(--lucha); }
-.type.hada { background-color: var(--hada); color: var(--dark-color); }
-.type.dragón { background-color: var(--dragón); }
-.type.fantasma { background-color: var(--fantasma); }
-.type.hielo { background-color: var(--hielo); color: var(--dark-color); }
-.type.acero { background-color: var(--acero); color: var(--dark-color); }
-.type.siniestro { background-color: var(--siniestro); }
 
-.pokemon-description {
-    font-size: 0.9rem;
-    color: #666;
-}
+
+
+
+
+
 
 .pagination {
     display: flex;
@@ -547,7 +529,7 @@ footer {
     transform: scale(1.1);
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
